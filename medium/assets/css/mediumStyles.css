@@ -1,0 +1,231 @@
+nav {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  width: 100%;
+  padding-inline: 2rem;
+  font-family: "Roboto";
+  font-weight: 300;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  flex-grow: 0.6;
+}
+nav ul li {
+  padding-inline: 10px;
+  cursor: pointer;
+  font-size: small;
+}
+nav ul li:nth-child(5) {
+  background-color: #000;
+  color: white;
+  padding: 11px;
+  border-radius: 99em;
+  font-weight: 700;
+  padding-inline: 15px;
+}
+
+.discoverSection {
+  display: flex;
+  background-color: #ffc017;
+  margin-top: 86px;
+}
+svg {
+  position: relative;
+}
+.discover {
+  padding-block: 4rem;
+  display: flex;
+  background-color: #ffc017;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-inline: 4rem;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.discover h1 {
+  font-size: 6rem;
+}
+.discover p {
+  font-size: 1.3rem;
+  font-family: "Roboto";
+}
+.discover p:nth-of-type(1) {
+  margin-top: 2rem;
+}
+.discover button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 99em;
+  font-size: 1.3rem;
+  padding: 9px;
+  padding-inline: 3rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.trendingBar {
+  display: flex;
+  align-items: center;
+  font-family: "roboto";
+  font-weight: 400;
+  padding-inline: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.trendingArticles {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(232, 232, 232, 0.7);
+}
+
+.trendingArticle {
+  display: flex;
+  align-items: flex-start;
+  width: 25%;
+  height: 100%;
+  padding-inline: 3rem;
+  font-family: "roboto";
+  margin-top: 20px;
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.articleNum {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e6e7e7;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.pfp img {
+  height: 20px;
+  width: 20px;
+  border-radius: 99em;
+}
+.pfpName {
+  padding-left: 10px;
+  font-size: small;
+}
+.articleTitle {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+.timeInfo {
+  display: flex;
+  font-size: small;
+  margin-top: 15px;
+}
+aside {
+  display: flex;
+}
+.moreArticles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  padding-inline: 3rem;
+  font-family: "roboto";
+  margin-top: 20px;
+  width: 59%;
+}
+.asideArticle {
+  width: 59%;
+  padding-top: 50px;
+}
+.biggerSize {
+  font-size: 1.2rem;
+}
+.subtitle {
+  color: #828282;
+  padding-top: 5px;
+}
+.moreImage {
+  padding-left: 35px;
+}
+.moreImage img {
+  width: 200px;
+  height: 140px;
+}
+.discoverMore {
+  margin-top: 30px;
+  font-family: "roboto";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 70%;
+  position: sticky;
+  top: 110px;
+}
+.discoverMore p {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.discoverMore button {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 11px;
+  border-radius: 99em;
+  padding-inline: 15px;
+  cursor: pointer;
+  border: none;
+  margin: 7px;
+}
+.discoverMore a {
+  color: #1a8917;
+  text-decoration: none;
+  padding-top: 15px;
+  font-size: small;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(232, 232, 232, 0.7);
+}
+.discoverMore ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.discoverMore li {
+  margin-left: 20px;
+  padding-block: 5px;
+  color: #909090;
+  font-size: small;
+}
+.scrollDownColor {
+  animation: scrollDown 1s linear forwards;
+}
+@keyframes scrollDown {
+  100% {
+    background-color: white;
+  }
+}
+.scrollDownButtonColor {
+  animation: scrollDownButton 1s linear forwards;
+}
+@keyframes scrollDownButton {
+  100% {
+    background-color: #156d12;
+  }
+}
