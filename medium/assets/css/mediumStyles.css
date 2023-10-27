@@ -240,3 +240,30 @@ aside {
     background-color: #156d12;
   }
 }
+
+.scrollUpColor {
+  animation: scrollUp 1s linear forwards;
+}
+
+@keyframes scrollUp {
+  from {
+    background-color: #f2f2f2;
+  }
+
+  to {
+    background-color: #ffc017;
+  }
+}
+
+.scrollUpButtonColor {
+  animation: scrollUpButton 1s linear forwards;
+}
+
+@keyframes scrollUpButton {
+  from {
+    background-color: #1a8917;
+  }
+  to {
+    background-color: #191919;
+  }
+}
